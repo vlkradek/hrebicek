@@ -78,6 +78,16 @@
   padding: 0;
   margin: 0;
 }
+body {
+  /* //background-size: 100vw; */
+  z-index: 100000000;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+section {
+  margin-bottom: 150px !important;
+}
 
 html,
 body {
@@ -104,4 +114,14 @@ a {
   html {
     color-scheme: dark;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 75%;
+  margin: 0 auto;
 }
